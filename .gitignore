@@ -1,0 +1,72 @@
+# Byte-compiled / optimized Python files
+*.pyc
+__pycache__/
+
+# Local development settings
+local_settings.py
+
+# Django development server related files
+db.sqlite3
+*.log
+
+# Static files directory (if using collectstatic)
+staticfiles/
+
+# Media files directory
+media/
+
+# Secret keys and sensitive information
+*.secret_key
+*.env
+
+# Virtual environment directory (if using virtualenv)
+venv/
+venv*/
+ENV/
+.env/
+env/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Python cache
+__pycache__/
+
+# Editor and IDE files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.pyproj
+*.bak
+*.swp
+
+# Dependency directories
+/node_modules/
+/bower_components/
+
+# Django migration files
+*.py[cod]
+**/migrations/*.py
+**/migrations/*.pyi
+**/migrations/*.sql
+**/migrations/*.json
+
+# Ignore pytest cache files
+pytest_cache/
+
+# Ignore coverage data
+.coverage
+htmlcov/
+
+# Ignore logs
+*.log
+
+# Ignore database dump
+dump.rdb
+
+# Ignore Django secret key and .env files (remove this if you use .env files for non-sensitive settings)
+*.secret
+*.env
